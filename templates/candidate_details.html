@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <title>Candidate Details</title>
+</head>
+
+<body>
+ <h1>Candidate Details</h1>
+ <p><strong>Name:</strong> {{ candidate_info['name'] }}</p>
+ <p><strong>Email:</strong> {{ candidate_info['email'] }}</p>
+ <p><strong>College:</strong> {{ candidate_info['college'] }}</p>
+ <p><strong>Year of Passout:</strong> {{ candidate_info['year'] }}</p>
+ <p><strong>Degree:</strong> {{ candidate_info['degree'] }}</p>
+ <p><strong>Skills:</strong> {{ candidate_info['skills'] | join(", ") }}</p>
+ <br>
+ <a href="/candidate_search">Back to Search</a>
+</body>
+
+</html>
