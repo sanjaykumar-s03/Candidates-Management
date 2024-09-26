@@ -15,20 +15,19 @@
 
 
 ## Features
-- **Upload Candidate Data**: Users can upload a CSV file containing candidate details.
-- **Graph Database Integration**: Data is stored in a Neo4j graph database, allowing for complex relationships between candidates, colleges, degrees, and skills.
-- **PDF Generation**: Candidate details can be downloaded as a PDF file, which includes a predefined image for each candidate.
-- **User-Friendly Interface**: A simple web interface makes it easy for users to interact with the application.
+ **Upload Candidate Data**: Users can upload a CSV file containing candidate details.
+ **Graph Database Integration**: Data is stored in a Neo4j graph database, allowing for complex relationships between candidates, colleges, degrees, and skills.
+ **PDF Generation**: Candidate details can be downloaded as a PDF file, which includes a predefined image for each candidate.
+ **User-Friendly Interface**: A simple web interface makes it easy for users to interact with the application.
 
 ## Technologies Used
-- **Flask**: A lightweight WSGI web application framework for Python.
-- **Neo4j**: A powerful graph database that allows for the representation of complex relationships.
-- **Pandas**: A data manipulation library that makes it easy to work with CSV files.
-- **ReportLab**: A library for generating PDFs in Python.
+**Flask**: A lightweight WSGI web application framework for Python.
+ **Neo4j**: A powerful graph database that allows for the representation of complex relationships.
+ **Pandas**: A data manipulation library that makes it easy to work with CSV files.
+ **ReportLab**: A library for generating PDFs in Python.
 
 ## Requirements
 To run this application, you will need the following:
-
 - Python 3.x
 - Neo4j (running locally or on a server)
 
@@ -64,12 +63,12 @@ Update the Neo4j connection details (username, password, etc.) in app.py to matc
    http://127.0.0.1:5000
 
 ## Usage
--Upload Candidate Data:
--Navigate to the upload page.
--Click on the "Upload" button to select your candidate data CSV file.
--Wait for the upload to complete; a confirmation message will appear.
--After processing, you can request to download the candidate details as a PDF.
--Click on the corresponding link to download the PDF, which will include candidate details and images.
+--Upload Candidate Data.
+--Navigate to the upload page.
+--Click on the "Upload" button to select your candidate data CSV file.
+--Wait for the upload to complete; a confirmation message will appear.
+--After processing, you can request to download the candidate details as a PDF.
+--Click on the corresponding link to download the PDF, which will include candidate details and images.
 
 ## Sample CSV Format
 To ensure proper data processing, your CSV file should follow this format:
