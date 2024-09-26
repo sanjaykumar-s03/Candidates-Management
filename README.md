@@ -44,10 +44,23 @@ The application requires the following Python libraries:
 - pandas
 - reportlab
 
-## Installation
+- Here's how the application works, along with the corresponding files:
 
-1. **Clone the Repository**:
-   Start by cloning this repository to your local machine. Open your terminal or command prompt and run:
-   ```bash
-   git clone https://github.com/username/my-flask-app.git
-   cd my-flask-app
+-Upload CSV File:
+   User navigates to upload.html (located in the templates folder) and uploads a CSV file containing candidate data.
+File: templates/upload.html
+
+-Processing the CSV:
+   The uploaded CSV file is processed in the app.py file. The application reads the CSV using Pandas and extracts candidate data.
+The application then creates nodes and relationships in the Neo4j database for each candidate.
+File: app.py
+
+-Generating PDF:
+   After processing, users can request to download candidate details. The application generates a PDF using the ReportLab library, including candidate information and predefined sample images.
+File: app.py
+
+-Downloading the PDF:
+   The generated PDF is served to the user for download.
+File: app.py
+
+
