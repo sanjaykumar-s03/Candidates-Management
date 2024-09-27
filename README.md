@@ -69,12 +69,12 @@ To ensure proper data processing, your CSV file should follow this format:
    Jane Smith,jane.smith@example.com,University B,2022,B.A. in Mathematics,"R; SQL"**
 
 Explanation of Fields:
-Name: Full name of the candidate.
-Email: Email address of the candidate.
-College: The college where the candidate studied.
-Year of Passout: The year the candidate graduated.
-Degree: The degree obtained by the candidate.
-Skills: A semicolon-separated list of skills the candidate possesses.
+1. Name: Full name of the candidate.
+2. Email: Email address of the candidate.
+3. College: The college where the candidate studied.
+4. Year of Passout: The year the candidate graduated.
+5. Degree: The degree obtained by the candidate.
+6. Skills: A semicolon-separated list of skills the candidate possesses.
 
 ## Workflow
 Here’s how the application works, along with the corresponding files:
