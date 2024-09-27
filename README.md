@@ -9,7 +9,6 @@
 3. [Requirements](#requirements)
 4. [Installation](#installation)
 5. [Running the Application](#running-the-application)
-6. [Usage](#usage)
 7. [Sample CSV Format](#sample-csv-format)
 8. [Workflow](#workflow)
 
@@ -62,14 +61,6 @@ Update the Neo4j connection details (username, password, etc.) in app.py to matc
 2. **Access the Application: Open your web browser and navigate to**:
    http://127.0.0.1:5000
 
-## Usage
---Upload Candidate Data.
---Navigate to the upload page.
---Click on the "Upload" button to select your candidate data CSV file.
---Wait for the upload to complete; a confirmation message will appear.
---After processing, you can request to download the candidate details as a PDF.
---Click on the corresponding link to download the PDF, which will include candidate details and images.
-
 ## Sample CSV Format
 To ensure proper data processing, your CSV file should follow this format:
 
@@ -85,12 +76,11 @@ Year of Passout: The year the candidate graduated.
 Degree: The degree obtained by the candidate.
 Skills: A semicolon-separated list of skills the candidate possesses.
 
-##Workflow
+## Workflow
 Here’s how the application works, along with the corresponding files:
-
--Upload the CSV File
--User navigates to upload.html (located in the templates folder) and uploads a CSV file containing candidate data.
--The uploaded CSV file is processed in the app.py file. The application reads the CSV using Pandas and extracts candidate data.
--The application creates nodes and relationships in the Neo4j database for each candidate.
--After processing, users can request to download candidate details. The application generates a PDF using the ReportLab library, including candidate information and predefined sample images.
--The generated PDF is served to the user for download.
+1. Upload the CSV File
+2. User navigates to upload.html (located in the templates folder) and uploads a CSV file containing candidate data.
+3. The uploaded CSV file is processed in the app.py file. The application reads the CSV using Pandas and extracts candidate data.
+4. The application creates nodes and relationships in the Neo4j database for each candidate.
+5. After processing, users can request to download candidate details. The application generates a PDF using the ReportLab library, including candidate information and predefined sample images.
+6. The generated PDF is served to the user for download.
