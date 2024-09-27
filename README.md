@@ -51,8 +51,8 @@ Update the Neo4j connection details (username, password, etc.) in app.py to matc
 ## Running the Application
 1.**Start the Flask Server**
    In your terminal, run:
-      python app.py  
-      
+      python app.py   
+
 2. **Access the Application**: 
    Open your web browser and navigate to:
       http://127.0.0.1:5001
