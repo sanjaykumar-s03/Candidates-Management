@@ -59,7 +59,7 @@ Update the Neo4j connection details (username, password, etc.) in app.py to matc
       
 2. **Access the Application**: 
    Open your web browser and navigate to:
-      http://127.0.0.1:5000
+      http://127.0.0.1:5001
 
 ## Sample CSV Format
 To ensure proper data processing, your CSV file should follow this format:
