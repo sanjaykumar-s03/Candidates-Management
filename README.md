@@ -61,7 +61,7 @@ Update the Neo4j connection details (username, password, etc.) in app.py to matc
 To ensure proper data processing, your CSV file should follow this format:
 
    **Name,Email,College,Year of Passout,Degree,Skills**
-   John Doe,john.doe@example.com,University A,2023,B.Sc. in Computer Science,"Python; Java"
+   John Doe,john.doe@example.com,University A,2023,B.Sc. in Computer Science,"Python; Java"    
    Jane Smith,jane.smith@example.com,University B,2022,B.A. in Mathematics,"R; SQL"
 
 Explanation of Fields:
