@@ -39,16 +39,12 @@ The application requires the following Python libraries:
 - reportlab
 
 ## Installation
-1. **Clone the Repository**:
-   Start by cloning this repository to your local machine. Open your terminal or command prompt and run:
-      git clone https://github.com/username/my-flask-app.git
-      cd my-flask-app
 
-2. **Install Dependencies**:
+1. **Install Dependencies**:
    Install the required packages using the following command and run :
        pip install -r requirements.txt on the terminal
    
-3. **Set Up Neo4j**:
+2. **Set Up Neo4j**:
    Make sure you have a Neo4j database running. You can download it from Neo4j's official website.
 Update the Neo4j connection details (username, password, etc.) in app.py to match your database setup.
 
