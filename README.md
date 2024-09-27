@@ -53,12 +53,12 @@ The application requires the following Python libraries:
 Update the Neo4j connection details (username, password, etc.) in app.py to match your database setup.
 
 ## Running the Application
-1.**Start the Flask Server**: 
+1.**Start the Flask Server**
    In your terminal, run:
       python app.py
-      
-2. **Access the Application: Open your web browser and navigate to**:
-   http://127.0.0.1:5000
+2. **Access the Application**: 
+   Open your web browser and navigate to:
+      http://127.0.0.1:5000
 
 ## Sample CSV Format
 To ensure proper data processing, your CSV file should follow this format:
